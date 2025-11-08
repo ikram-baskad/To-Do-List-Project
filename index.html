@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sparkle Todos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <header class="header">
+        <div class="logo">✨</div>
+        <div>
+          <h1>TaskPop</h1>
+        </div>
+      </header>
+
+      <section class="card">
+        <div class="input-row">
+          <input id="todo-input" type="text" placeholder="What would you like to do?" aria-label="New todo" />
+          <button id="add-btn" class="btn">Add</button>
+        </div>
+
+        <ul id="todo-list" class="todo-list" aria-live="polite"></ul>
+
+        <div class="footnote">Tip: press Enter or click Add button to add.</div>
+      </section>
+
+      <footer class="footer">Made with ❤️</footer>
+    </main>
+
+    <script src="js/app.js" defer></script>
+  </body>
+</html>
